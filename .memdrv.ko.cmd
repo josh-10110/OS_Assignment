@@ -1,0 +1,1 @@
+cmd_/media/josh/ESD-USB/test2/memdrv.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /media/josh/ESD-USB/test2/memdrv.ko /media/josh/ESD-USB/test2/memdrv.o /media/josh/ESD-USB/test2/memdrv.mod.o;  true
